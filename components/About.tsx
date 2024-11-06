@@ -11,9 +11,9 @@ export function About() {
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
-              Unleash the power of <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Scroll Animations
+             {/* <br /> */}
+              <span className="text-4xl md:text-[4rem] font-bold mt-1 mb-2 leading-none">
+              Why Hire Me for Your Next Project?
               </span>
             </h1>
           </>

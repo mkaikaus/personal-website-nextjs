@@ -13,37 +13,29 @@ import Navbar from "@/app/Navbar/page";
 import { Experience } from "./Experience";
 import { About } from "@/components/About";
 import { AnimatedTabs } from "./AnimatedTabs";
+import Footer2 from "./Footer2";
 
 export default function Home() {
   return (
     <>
-
+      {/* <AnimatedTabs /> */}
       <Navbar />
       <main id='home' className="relative bg-black-100 flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5">
         <div className="max-w-7xl w-full">
-          {/* <FloatingNav navItems={navItems
-          
-        //   [
-        //      {
-        //       name: 'Home',   
-        //       link : '/',
-        //       icon: <FaHome />
-        //     }
-        // ]
-    
-      }
-        /> */}
           <Hero />
           <About />
           {/* <AnimatedTabs /> */}
           {/* <Grid /> */}
-          <RecentProjects /> 
+          <RecentProjects />
           <Skills />
           <Experience />
           <Testimonials />
-          <Footer />
+
+          {/* <Footer /> */}
+          <Footer2 />
         </div>
       </main>
+     
     </>
   );
 }

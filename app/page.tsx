@@ -25,7 +25,8 @@ export default function Page() {
     <>
       {/* {showCover ? <CoverPage /> : <Home />} Conditional rendering */}
 
-      <CoverPage />
+      {/* <CoverPage /> */}
+      <Home />
     </>
   );
 }
