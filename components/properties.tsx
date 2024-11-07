@@ -44,52 +44,52 @@ export const skills: Record<string, Skill[]> = {
       description: "JavaScript",
       imagePath: "/skills-assets/js.png",
     },
-    {
-      description: "Python",
-      imagePath: "/skills-assets/python.png",
-    },
+    // {
+    //   description: "Python",
+    //   imagePath: "/skills-assets/python.png",
+    // },
     {
       description: "TypeScript",
       imagePath: "/skills-assets/ts.png",
     },
+    // {
+    //   description: "Java",
+    //   imagePath: "/skills-assets/java.png",
+    // },
     {
-      description: "Java",
-      imagePath: "/skills-assets/java.png",
+      description: "HTML",
+      imagePath: "/skills-assets/html.png",
     },
-    // {
-    //   description: "HTML",
-    //   imagePath: "/skills-assets/html.png",
-    // },
-    // {
-    //   description: "CSS",
-    //   imagePath: "/skills-assets/css.jpg",
-    // },
+    {
+      description: "CSS",
+      imagePath: "/skills-assets/css.jpg",
+    },
   ],
   Frameworks: [
     {
       description: "React",
       imagePath: "/skills-assets/react.svg",
     },
-    {
-      description: "Express.js",
-      imagePath: "/skills-assets/express.png",
-    },
-    {
-      description: "Flask",
-      imagePath: "/skills-assets/flask.png",
-    },
+    // {
+    //   description: "Express.js",
+    //   imagePath: "/skills-assets/express.png",
+    // },
+    // {
+    //   description: "Flask",
+    //   imagePath: "/skills-assets/flask.png",
+    // },
     {
       description: "Next.js",
       imagePath: "/skills-assets/nextjs.jpg",
     },
-    // {
-    //   description: "Jest",
-    //   imagePath: "/skills-assets/jest.png",
-    // },
-    // {
-    //   description: "TailwindCSS",
-    //   imagePath: "/skills-assets/tailwind.png",
-    // },
+    {
+      description: "TailwindCSS",
+      imagePath: "/skills-assets/tailwind.png",
+    },
+    {
+      description: "Cypress",
+      imagePath: "/skills-assets/cypress.webp",
+    },
   ],
 
   Tools: [
@@ -105,14 +105,20 @@ export const skills: Record<string, Skill[]> = {
       description: "MySQL",
       imagePath: "/skills-assets/mysql.svg",
     },
+    
     {
-      description: "SQLite",
-      imagePath: "/skills-assets/sqlite.jpg",
+      description: "Figma",
+      imagePath: "/skills-assets/figma.png",
     },
+
     {
-      description: "MongoDB",
-      imagePath: "/skills-assets/mongo.png",
+      description: "Postman",
+      imagePath: "/skills-assets/Postman.png",
     },
+    // {
+    //   description: "VS Code",
+    //   imagePath: "/skills-assets/VSCode.jpg",
+    // },
     // {
     //   description: "Firebase",
     //   imagePath: "/skills-assets/firebase.png",
