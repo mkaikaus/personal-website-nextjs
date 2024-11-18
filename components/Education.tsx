@@ -22,20 +22,24 @@ export function Education() {
             title: "B.Sc in Information Technology",
 
             description:
-                "Jahangirnagar University",
+                "2018-2023",
             description2:
-                "2018-2023 Dhaka, Bangladesh",
+                "Jahangirnagar University",
             description3:
+                "Dhaka, Bangladesh",
+            description4:
                 "Result: CGPA 3.78 out of 4",
             icon: <FaUserGraduate />,
         },
         {
             title: "M.Sc in Information Technology",
             description:
-                "Jahangirnagar University",
+                "2023-2024",
             description2:
-                "2023-2024 Dhaka, Bangladesh",
+                "Jahangirnagar University",
             description3:
+                "Dhaka, Bangladesh",
+            description4:
                 "Result: CGPA 3.81 out of 4",
             icon: <FaBookOpen />,
         },
@@ -88,6 +92,7 @@ const Feature = ({
     description,
     description2,
     description3,
+    description4,
     icon,
     index,
 }: {
@@ -95,13 +100,14 @@ const Feature = ({
     description: string;
     description2: string;
     description3: string;
+    description4: string;
     icon: React.ReactNode;
     index: number;
 }) => {
     return (
         <div
             className={cn(
-                "flex flex-col lg:border-r px-2 py-2 lg:py-10 relative group/feature border-[#c084fc]",
+                "flex flex-col lg:border-r px-2 py-2 lg:py-5 relative group/feature border-[#c084fc]",
                 // (index === 0 || index === 4) && "lg:border-l dark:border-neutral-800",
                 // index < 4 && "lg:border-b dark:border-neutral-800"
             )}
@@ -121,14 +127,17 @@ const Feature = ({
                     {title}
                 </span>
             </div>
-            <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
+            <p className="text-lg text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
                 {description}
             </p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
+            <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10 pt-2">
                 {description2}
             </p>
-            <p className="text-sm lg:text-lg text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 pl-10 pt-3">
+            <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
                 {description3}
+            </p>
+            <p className="text-sm lg:text-lg text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 pl-10 pt-2">
+                {description4}
             </p>
         </div>
     );

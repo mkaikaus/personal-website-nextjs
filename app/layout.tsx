@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 const alegreya = Alegreya({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
-  title: "Joe's Portfolio",
+  title: "Maleeha kaikaus",
   description: "Created with Next.js, TypeScript and Deployed on Github Pages",
 };
 
@@ -27,6 +27,7 @@ export default function RootLayout({
         <link rel="icon" href="logo.png" sizes="any" />
       </head>
       <body className={alegreya.className}>
+        
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

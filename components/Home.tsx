@@ -14,6 +14,9 @@ import { Experience } from "./Experience";
 import { About } from "@/components/About";
 import { AnimatedTabs } from "./AnimatedTabs";
 import Footer2 from "./Footer2";
+import { Projects } from "./Projects";
+
+import { Certificate } from "./Certificate";
 
 export default function Home() {
   return (
@@ -24,11 +27,9 @@ export default function Home() {
         <div className="max-w-7xl w-full">
           <Hero />
           <About />
-          {/* <AnimatedTabs /> */}
-          {/* <Grid /> */}
-          <RecentProjects />
-          <Skills />
           <Experience />
+          <Projects />
+          <Certificate />
           <Testimonials />
 
           {/* <Footer /> */}

@@ -31,16 +31,15 @@ const Hero = () => {
         },
         {
             text: "React.js.",
-            className: "text-[#9B7EBD] dark:text-[#9B7EBD]",
+            className: "text-[#3b82f6] dark:text-[#7dd3fc]",
         },
     ];
     return (
         <div className='mt-20 md:mt-20 pb-10 flex flex-col w-full items-center'>
             <div>
-                <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='purple' />
+                <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='#0284c7' />
                 <Spotlight className='top-20 left-full h-[80vh] w-[50vw]' fill='white' />
-                {/* <Spotlight className='top-60 left-full h-[80vh] w-[50vw]' fill='purple' /> */}
-                <Spotlight className='top-40 left-full h-[80vh] w-[50vw]' fill='purple' />
+                <Spotlight className='top-40 left-full h-[80vh] w-[50vw]' fill='#0284c7' />
                 <Spotlight className='top-28 left-80 h-[80vh] w-[50vw]' fill='white' />
             </div>
 

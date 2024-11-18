@@ -11,13 +11,13 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-[#000000] to-[#2f0147] text-white sticky top-0">
+    <nav className="bg-gradient-to-r from-[#000000] to-[#172554] text-white sticky top-0">
       <div className="max-w-screen-2xl mx-auto px-4 py-2">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="\">
             <Image
-              src="/images/initial.png"
+              src="/images/logo.png"
               alt="home pic"
               width={100}
               height={100}
@@ -35,10 +35,10 @@ const Navbar: React.FC = () => {
               <a href="about" className="hover:text-[#BC6FF1] px-3 py-2 rounded-md">
                 About
               </a> */}
-              <a href="project" className="hover:text-[#BC6FF1] px-3 py-2 rounded-md">
+              <a href="project" className="hover:text-[#93c5fd] px-3 py-2 rounded-md">
                 Projects
               </a>
-              <a href="#contact" className="hover:text-[#BC6FF1] px-3 py-2 rounded-md">
+              <a href="#contact" className="hover:text-[#93c5fd] px-3 py-2 rounded-md">
                 Contact
               </a>
             </div>

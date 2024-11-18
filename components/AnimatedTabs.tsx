@@ -6,6 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { HoverEffect } from "./ui/Card-hover-effect";
 import Tools from "./Tools";
 import { Education } from "./Education";
+import { Services } from "./Services";
 
 
 const words = `As a software engineer, I focus on building user-friendly, visually appealing applications, drawing on hands-on experience in developing seamless frontend interfaces integrated with backend systems. Skilled in tools like React, Next.js, Laravel, Tailwind CSS, and Material UI, I’m always eager to learn and take on new challenges. With a commitment to growth, I’m excited to continue making a positive impact through my work in this field.
@@ -57,8 +58,8 @@ export function AnimatedTabs() {
       title: "Myself",
       value: "myself",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 lg:p-10 text-lg md:text-2xl font-bold text-white bg-gradient-to-br from-[#a855f7] to-violet-900">
-          <p className="md:text-4xl">My Self</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 lg:p-10 text-lg md:text-2xl font-bold text-white bg-gradient-to-br from-[#60a5fa] to-violet-900">
+          <p className="md:text-4xl text-black">My Self</p>
           <div className="lg:m-5 border-rounded p-2 lg:p-5 bg-neutral-900 border-4 rounded-2xl border-neutral-700 shadow-lg">
             <TextGenerateEffect words={words} />
           </div>
@@ -71,10 +72,22 @@ export function AnimatedTabs() {
       title: "Tools",
       value: "tools",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#d8b4fe] to-violet-900 z-50">
-          <p className="md:text-4xl">Tools</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 md:p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#67e8f9] to-violet-900 z-50">
+          <p className="md:text-4xl text-black ">Tools</p>
           <Tools />
           {/* <HoverEffect items={projects} /> */}
+          {/* <DummyContent /> */}
+        </div>
+      ),
+    },
+
+    {
+      title: "Services",
+      value: "services",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#bae6fd] to-violet-900">
+          <p className="md:text-4xl text-black">Services</p>
+          <Services />
           {/* <DummyContent /> */}
         </div>
       ),
@@ -84,8 +97,8 @@ export function AnimatedTabs() {
       title: "Education",
       value: "education",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#818cf8] to-violet-900">
-          <p>Education</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#93c5fd] to-violet-900">
+          <p className="md:text-4xl text-black">Education</p>
           <Education />
           {/* <DummyContent /> */}
         </div>

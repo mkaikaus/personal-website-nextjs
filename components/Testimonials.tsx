@@ -7,9 +7,9 @@ import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 export function Testimonials() {
     return (
         <div className="h-[40rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
-            <h1 className="heading mt-5 mb-10 text-3xl text-white font-bold text-center">Testimonials {' '}
+            <h1 className="heading mt-5 mb-10 text-3xl text-white font-bold text-center">Expert {' '}
                 <span className='relative inline-block'>
-                    <span className='text-blue-300'>skills</span>
+                    <span className='text-blue-300'>Endorsement</span>
                     <img src='line.png' alt='path' className='w-[160px] h-[20px] absolute -bottom-5 z-0 ' />
                 </span>
             </h1>

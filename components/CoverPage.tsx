@@ -38,11 +38,11 @@ export function CoverPage() {
       >
       <div className="max-w-7xl w-full space-y-8 text-center">
         
-        <h1 className="text-4xl md:text-7xl font-semibold italic text-[#9B7EBD] transition-all duration-300 hover:text-[#F0C1E1]/90">
+        <h1 className="text-4xl md:text-7xl font-semibold italic text-[#bae6fd] transition-all duration-300 hover:text-[#22d3ee]">
           Frontend Developer | Maleeha Kaikaus
         </h1>
 
-        <h2 className="text-4xl md:text-5xl font-semibold italic text-[#FFCCEA] transition-all duration-300 hover:text-[#D4BEE4]/90">
+        <h2 className="text-4xl md:text-5xl font-semibold italic text-[#93c5fd] transition-all duration-300 hover:text-[#a5f3fc]">
           Turning ideas into polished digital interfaces
         </h2>
         
