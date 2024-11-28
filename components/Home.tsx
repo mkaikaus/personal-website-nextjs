@@ -1,22 +1,12 @@
 import Hero from "@/components/Hero";
-import { FloatingNav } from "@/components/ui/FloatingNav";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
-import Grid from "@/components/ui/Grid";
-import { navItems } from "@/data";
-import Footer from "@/components/Footer"
-import RecentProjects from "@/components/ui/RecentProjects";
-import Skills from "@/components/Skills";
-
 import { Testimonials } from "@/components/Testimonials"
 import Navbar from "@/app/Navbar/page";
 import { Experience } from "./Experience";
 import { About } from "@/components/About";
-import { AnimatedTabs } from "./AnimatedTabs";
 import Footer2 from "./Footer2";
-import { Projects } from "./Projects";
-
 import { Certificate } from "./Certificate";
+import { Projects } from "./Projects";
+import { BentoGridSecondDemo } from "./project-section";
 
 export default function Home() {
   return (
@@ -29,6 +19,9 @@ export default function Home() {
           <About />
           <Experience />
           <Projects />
+
+          {/* <BentoGridSecondDemo /> */}
+          {/* <FeaturesSection /> */}
           <Certificate />
           <Testimonials />
 
